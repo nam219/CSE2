@@ -1,6 +1,6 @@
 import java.util.*;
 /**
- * explanation here
+ * calculates the total check for a number of people paying
  * 
  * @author Nick McIntyre
  * @version lab 3

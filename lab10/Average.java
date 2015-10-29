@@ -17,6 +17,7 @@
          for(int x = 0; x<arr.length; x++)//find the sum of all elements in array
             sum+=arr[x];
         average = sum/(arr.length-1);//gets the average of the array
+        System.out.println("Sum is " + sum);
         System.out.println("Average is " + average);
         for(int x = 0; x<arr.length; x++)//prints out element if it is greater than the average of the array
             if(arr[x]>average)

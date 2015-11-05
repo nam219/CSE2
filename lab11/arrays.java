@@ -14,6 +14,7 @@ public class arrays
             arr[x] = (int)(Math.random()*100);
         }
         sort(arr);//sorts the array
+        System.out.println("The first array");
         for(int x = 0; x<arr.length; x++)//prints it
         {
             System.out.println(arr[x]);
@@ -24,6 +25,7 @@ public class arrays
             arr2[x] = (int)(Math.random()*100);
         }
         sort(arr2);//sorts it
+        System.out.println("The second array");
         for(int x = 0; x<arr2.length; x++)//prints it
         {
             System.out.println(arr2[x]);
@@ -38,6 +40,7 @@ public class arrays
             arr3[arr.length-1+x] = arr2[x];
         }
         sort(arr3);//sorts it
+        System.out.println("The final array");
         for(int x = 0; x<arr3.length; x++)//prints it
         {
             System.out.println(arr3[x]);
